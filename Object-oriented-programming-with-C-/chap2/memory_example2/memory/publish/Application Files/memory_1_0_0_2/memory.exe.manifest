@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="memory.exe" version="1.0.0.2" publicKeyToken="90139145de13d0dc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="memory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="memory.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="memory.exe" size="73728">
+      <assemblyIdentity name="memory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7tVBoVMI0twNaAwgP/eqSke9Wml1QeuVNFP6Zl/+JAc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="memory.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ADTUAMK\tferm" issuerKeyHash="608e59738a66810dd8f5364e0851cff351adacf2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0R+thJT/6DpKcGgBtvardjlacnYVRyEPe8gtwOxrK/k=</DigestValue></Reference></SignedInfo><SignatureValue>zo8v6K2WHM6YFdVkeocFaCwmQlRUtGkwD96Ph1n7LROwQERO+XHWvuCvgvIeaGE0PdoIq83Qdbe+8wTTfx739bPsvH08p9NScX7A8cSNpWxpS3ElTUxE/ADchucIigoPerCiAKS374hua3fGwSNkASNI2/0C1S7CVk39H2uYvMA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0BwzKq0uTc3SMu974Bz61dS3F2vs7aTXtshUAlOEtrT7IedyOY/6mtsvjbt6CGA68lCNPsfWED+BXOhB5+SZ7DjxVZLf8Ozcl0N4dUIB/scMKzjmdDfg9H8w53DDKm2EzocJqJY3ffOq4Z5ZimGq0toDDITfKcC9/Jdk7Y/3jUU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f92b6becc02dc87b0f21471576725a3976abf6b60168704a3ae8ff9484ad1fd1" Description="" Url=""><as:assemblyIdentity name="memory.exe" version="1.0.0.2" publicKeyToken="90139145de13d0dc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ADTUAMK\tferm</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8DdosRpLKZg+wr5ZMUrKErDUQZBUvOIz/IczBevUVXQ=</DigestValue></Reference></SignedInfo><SignatureValue>yJiOFNWh880ceq47kO7hks3wQgoF+kYlEeQ5cklkXVFzKCgpyZViwHaOHsV6h105yQvi/1eTU3ZGT8oNIvZc6+UebXXU0Tb8OvOqSYwpYOt65Rq4hWmA6v9LFnCSpFv05ynvyUeTeNHcXJRT1OZ0UPWr+Jnuy/mkmwEEy7zIvRc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0BwzKq0uTc3SMu974Bz61dS3F2vs7aTXtshUAlOEtrT7IedyOY/6mtsvjbt6CGA68lCNPsfWED+BXOhB5+SZ7DjxVZLf8Ozcl0N4dUIB/scMKzjmdDfg9H8w53DDKm2EzocJqJY3ffOq4Z5ZimGq0toDDITfKcC9/Jdk7Y/3jUU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQISSamwiXMI1PfUrqS3NCXzANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAQQBEAFQAVQBBAE0ASwBcAHQAZgBlAHIAbTAeFw0xNDA0MDIxMTAxMjBaFw0xNTA0MDIxNzAxMjBaMCUxIzAhBgNVBAMeGgBBAEQAVABVAEEATQBLAFwAdABmAGUAcgBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQHDMqrS5NzdIy73vgHPrV1LcXa+ztpNe2yFQCU4S2tPsh53I5j/qa2y+Nu3oIYDryUI0+x9YQP4Fc6EHn5JnsOPFVkt/w7NyXQ3h1QgH+xwwrOOZ0N+D0fzDncMMqbYTOhwmoljd986rhnlmKYarS2gMMhN8pwL38l2Ttj/eNRQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHDGXfdCuTMGylpjgxJK2fDyj5FjoZTZz2w0zFWt3yz3Op2hb4ijZiX8Z+BYNUsimh/h2f+3piBHVCTL2I0zlSbMNgbMm4p5pO/LR7r4OPY53J+5/gz1Hf8Ieh5OngZjR1rIjvarOGXlqC0pQ5l1ma58WWcanOOEhHYOU7nOscQC</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

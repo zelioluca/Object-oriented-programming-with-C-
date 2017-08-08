@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="memory.MemoryBoard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="550" Width="600">
+    <Grid >
+        <UniformGrid x:Name="grid" Width=" 460" Height="460" Margin="8,10,132,198">
+            <!--canvases are created in the code-->
+        </UniformGrid>
+        <Grid HorizontalAlignment="Left" Height="52" Margin="0,490,0,0" VerticalAlignment="Top" Width="468">
+            <TextBlock Name="result" HorizontalAlignment="Left" Height="32" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167"/>
+            <Button Content="NEW GAME" HorizontalAlignment="Left" Height="31" Margin="198,11,0,0" VerticalAlignment="Top" Width="112" Click="New_Click"/>
+            <Button Content="SHOW ALL" Height="31" Margin="328,11,39,0" VerticalAlignment="Top" Click="Show_Click"/>
+
+            <Label Content="Size of the board" Margin="494,-431,-126,446"/>
+            <RadioButton Content="4x4" Width="93" Checked="RadioButton_Checked_1" IsChecked="True" HorizontalAlignment="Right" Height="28" VerticalAlignment="Top" Margin="0,-386,-111,0"/>
+            <RadioButton Content="6x6"  Width="93" Checked="RadioButton_Checked_1" HorizontalAlignment="Right" Height="28" VerticalAlignment="Top" Margin="0,-356,-111,0"/>
+            <RadioButton Content="8x8"  Width="93" Checked="RadioButton_Checked_1" HorizontalAlignment="Right" Height="28" VerticalAlignment="Top" Margin="0,-326,-111,0"/>
+            <RadioButton Content="10x10"  Width="93" Checked="RadioButton_Checked_1" HorizontalAlignment="Right" Height="28" VerticalAlignment="Top" Margin="0,-296,-111,0"/>
+        </Grid>
+    </Grid>
+
+</UserControl>

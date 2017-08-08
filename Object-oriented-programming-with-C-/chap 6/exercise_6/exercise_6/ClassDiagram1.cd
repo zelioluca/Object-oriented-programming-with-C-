@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="exercise_6.Maze">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="exercise_6.Maze.Pair" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Maze.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgEAACAAAAAAAAQAAAAAEAAAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Maze.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="exercise_6.MainWindow">
+    <Position X="7.75" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAEAAAAAAAAAAAAQAACAAAAIACAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="exercise_6.LEVELS">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIkAAAAAgAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Maze.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>

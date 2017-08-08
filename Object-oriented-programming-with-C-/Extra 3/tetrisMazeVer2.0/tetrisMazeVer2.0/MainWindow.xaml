@@ -1,0 +1,22 @@
+﻿<Window x:Class="tetrisMazeVer2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tetrisMazeVer2._0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="749.3" Width="525" KeyDown="Window_KeyDown" Background="#FF080808">
+    <Grid Name="grid" Margin="0,10,0.4,0" Height="710" VerticalAlignment="Top">
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="500" Margin="10,0,0,0" VerticalAlignment="Top" Width="500" Loaded="canvas_Loaded" Background="black"/>
+        <Canvas x:Name="a1" HorizontalAlignment="Left" Height="65" Margin="10,505,0,0" VerticalAlignment="Top" Width="165" Background="Black"/>
+        <Canvas x:Name="a2" HorizontalAlignment="Left" Height="65" Margin="175,505,0,0" VerticalAlignment="Top" Width="165" Background="Black"/>
+        <Canvas x:Name="a3" HorizontalAlignment="Left" Height="65" Margin="340,505,0,0" VerticalAlignment="Top" Width="165" Background="Black"/>
+        <Canvas x:Name="b1" HorizontalAlignment="Left" Height="65" Margin="10,570,0,0" VerticalAlignment="Top" Width="165" Background="Black"/>
+        <Canvas x:Name="b2" HorizontalAlignment="Left" Height="65" Margin="175,570,0,0" VerticalAlignment="Top" Width="165" Background="Black"/>
+        <Canvas x:Name="b3" HorizontalAlignment="Left" Height="65" Margin="340,570,0,0" VerticalAlignment="Top" Width="165" Background="Black"/>
+        <Canvas x:Name="c1" HorizontalAlignment="Left" Height="65" Margin="10,635,0,0" VerticalAlignment="Top" Width="165" Background="Black"/>
+        <Canvas x:Name="c2" HorizontalAlignment="Left" Height="65" Margin="175,635,0,0" VerticalAlignment="Top" Width="165" Background="Black"/>
+        <Canvas x:Name="c3" HorizontalAlignment="Left" Height="65" Margin="340,635,0,0" VerticalAlignment="Top" Width="165" Background="Black"/>
+    </Grid>
+
+</Window>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="exercise_4.MainWindow">
+    <Position X="0.5" Y="0.5" Width="5.5" />
+    <AssociationLine Name="CommandHandler" Type="exercise_4.CommandHandler">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.307" Y="0.102" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAIAAAABAAAAAAACgIAAgAAAAABEAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CommandHandler" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="exercise_4.CommandHandler">
+    <Position X="0.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAQQICAAAAgEAAABAAAAAgAIAEAAAAGAAAA=</HashCode>
+      <FileName>CommandHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainWindow" />
+      <Property Name="ReadWriteDialog1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="exercise_4.ReadWriteDialog">
+    <Position X="0.5" Y="9" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAQAAAAAAAAAAAAgAAAgAEBAAACAAAAAA=</HashCode>
+      <FileName>ReadWriteDialog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ReadWrite1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="exercise_4.ReadWrite">
+    <Position X="6.75" Y="9.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAQAAAAAAAAAAAAAAAAAAIAAAACAAAAAA=</HashCode>
+      <FileName>ReadWrite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="exercise_4.IReadWrite">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>IReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

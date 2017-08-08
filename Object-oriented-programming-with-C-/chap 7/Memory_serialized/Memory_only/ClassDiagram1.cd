@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Memory_only.Board">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAADAAABgEAAAEAAAAMQAAIJAEABAAAAAA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="game" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Memory_only.MemoryGame">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgBAJAAEACAAAAAAAAAAAAAAAAECAAAAABA=</HashCode>
+      <FileName>MemoryGame.cs</FileName>
+      <NewMemberFileName>Game.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Memory_only.MainWindow">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAQAAgAAAAAAAAAAQAAAAQAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="b" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Memory_only.Markers">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Markers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Memory_only.Game">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAAAAAAAAAAQAAAQEAAAEAAAAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Memory_only.IControl">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Memory_only.IBoard">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBoard.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

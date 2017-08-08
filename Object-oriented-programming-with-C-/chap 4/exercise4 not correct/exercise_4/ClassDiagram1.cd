@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="exercise_4.CommandHandler">
+    <Position X="0.5" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAQAICAAAAAAAAAAAAAAAAAAAEAACAGAAAA=</HashCode>
+      <FileName>CommandHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="exercise_4.ReadWrite">
+    <Position X="0.5" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ReadWrite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="exercise_4.ReadWriteDialog">
+    <Position X="5.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ReadWriteDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="exercise_4.MainWindow" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAACgIAAgAAAAABEAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="exercise_4.IReadWrite">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>IReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

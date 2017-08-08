@@ -1,0 +1,14 @@
+﻿<Window x:Class="gameInUse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:games="clr-namespace:pelitkirijasto;assembly=pelitkirijasto"
+        xmlns:local="clr-namespace:gameInUse"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="686.94" Width="1146.642">
+    <Grid>
+        <games:MemoryBoard Margin="530,10,10,-10.4"></games:MemoryBoard>
+        <games:TTTBoard Margin="10,96,522,139.6"></games:TTTBoard>
+    </Grid>
+</Window>

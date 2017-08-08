@@ -1,0 +1,17 @@
+﻿<Window x:Class="boardgames.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:boardgames"
+        xmlns:game="clr-namespace:pelitkirjasto;assembly=pelitkirjasto2.0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="668.013" Width="1484.535">
+    <Grid Margin="0,0,-6.2,2.8">
+
+        <local:SudokuBoard Margin="524,48,337.6,28.6"></local:SudokuBoard>
+        
+
+
+    </Grid>
+</Window>

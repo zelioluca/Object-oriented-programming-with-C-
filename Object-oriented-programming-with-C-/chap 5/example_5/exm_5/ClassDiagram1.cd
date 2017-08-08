@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="example_5.Coordinate2DDrawer">
+    <Position X="0.5" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAABAAAIAEAAAAAAAAA=</HashCode>
+      <FileName>Coordinate2DDrawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="example_5.CoordinateDrawer">
+    <Position X="6" Y="0.5" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>MCAAIQAwAIAAAAAAAAAAAABCAAAAABAIAEAAAABAIIA=</HashCode>
+      <FileName>CoordinateDrawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="example_5.DataItem">
+    <Position X="1.5" Y="8" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgABgAIAAYAA=</HashCode>
+      <FileName>DataItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="meter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="exm_5.MainWindow">
+    <Position X="0.5" Y="3.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAARBgAAAAAABAAAAQIAABAAAAAwAAgAAEA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="drawer" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Data" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Struct Name="exm_5.METERS">
+    <Position X="6" Y="6.75" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="exm_5.METERS.NAMES" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Meters.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Meters.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="example_5.Markers">
+    <Position X="9" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAACAAAAAAAAAAAAAAAQAAAgAA=</HashCode>
+      <FileName>Markers.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

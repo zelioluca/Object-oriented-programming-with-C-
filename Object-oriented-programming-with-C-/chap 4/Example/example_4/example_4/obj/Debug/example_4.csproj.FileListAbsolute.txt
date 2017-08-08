@@ -1,0 +1,16 @@
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\bin\Debug\example_4.exe.config
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\bin\Debug\example_4.exe
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\bin\Debug\example_4.pdb
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\obj\Debug\example_4.csprojResolveAssemblyReference.cache
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\obj\Debug\MainWindow.baml
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\obj\Debug\MainWindow.g.cs
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\obj\Debug\App.g.cs
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\obj\Debug\example_4_MarkupCompile.cache
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\obj\Debug\example_4.g.resources
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\obj\Debug\example_4.Properties.Resources.resources
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\obj\Debug\example_4.csproj.GenerateResource.Cache
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\obj\Debug\example_4.exe
+C:\Users\tferm\Desktop\olio-ohjelmointi\C# 2016\example_4\example_4\obj\Debug\example_4.pdb
+E:\Programming\Object Oriented Programming\chap 4\Example\example_4\example_4\bin\Debug\example_4.exe.config
+E:\Programming\Object Oriented Programming\chap 4\Example\example_4\example_4\obj\Debug\example_4.exe
+E:\Programming\Object Oriented Programming\chap 4\Example\example_4\example_4\obj\Debug\example_4.pdb

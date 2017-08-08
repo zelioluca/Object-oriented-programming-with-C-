@@ -1,0 +1,9 @@
+﻿<Window x:Class="exercise_6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     Title="Find the Key and open the Pink Door" SizeToContent="WidthAndHeight" SnapsToDevicePixels="False"  WindowStyle="ToolWindow" KeyDown="Window_KeyDown">
+    <Grid>
+        <Canvas Width="500" Height="500" HorizontalAlignment="Left" Margin="0,0,0,0" Name="canvas" VerticalAlignment="Top"  Background="Black" Loaded="canvas_Loaded" ClipToBounds="True" />
+    </Grid>
+</Window>
+

@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="pelitkirjasto.TTTBoard"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:pelitkirjasto"
+             mc:Ignorable="d" Width="607.836" Height="421.413">
+    <Grid Name="grid">
+        <Button Content="" Click="Button_Click" FontSize="48" FontWeight="Bold" Margin="10,7,484,308.6"/>
+        <Button Content="" Click="Button_Click" FontSize="48" FontWeight="bold" Margin="124,7,370,308.6"/>
+        <Button Content="" Click="Button_Click" FontSize="48" FontWeight="bold" Margin="238,7,256,308.6"/>
+        <Button Content="" Click="Button_Click" FontSize="48" FontWeight="bold" Margin="10,113,484,202.6"/>
+        <Button Content="" Click="Button_Click" FontSize="48" FontWeight="bold" Margin="124,113,370,202.6"/>
+        <Button Content="" Click="Button_Click" FontSize="48" FontWeight="bold" Margin="238,113,256,202.6"/>
+        <Button Content="" Click="Button_Click" FontSize="48" FontWeight="bold" Margin="10,219,484,96.6"/>
+        <Button Content="" Click="Button_Click" FontSize="48" FontWeight="bold" Margin="124,219,370,96.6"/>
+        <Button Content="" Click="Button_Click" FontSize="48" FontWeight="bold" Margin="238,219,256,96.6"/>
+    </Grid>
+</UserControl>

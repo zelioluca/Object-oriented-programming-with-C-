@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Both MemoryBoard and MemoryGame include references to each other.">
+    <Position X="4.021" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="memory.MainWindow">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="memory.MemoryGame">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABAAAAQggMAAIAABCAEAQAAKAACAAACABE=</HashCode>
+      <FileName>MuistiPeli.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="memory.MemoryBoard">
+    <Position X="4.5" Y="2.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAAAAAIAIAgAAEAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Pelialusta.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="peli" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

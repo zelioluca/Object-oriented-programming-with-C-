@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="boardgames.MineBoard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:boardgames"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" Width="427.2">
+    <Grid Margin="0,0,0.2,0">
+        <Grid x:Name="alusta" Margin="10,10,117.2,58">
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="40,10,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Width="30" Height="27" RenderTransformOrigin="2.627,0.543"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="130,10,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="160,10,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="40,37,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="70,37,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="100,37,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="130,37,0,0" VerticalAlignment="Top" Width="30" Height="27" RenderTransformOrigin="0.564,0.523"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="160,37,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="40,64,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="70,64,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="100,64,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="130,64,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="160,64,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="40,91,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="70,91,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="100,91,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="130,91,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="160,91,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="40,118,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="70,118,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="100,118,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="130,118,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="160,118,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="40,145,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="70,145,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="100,145,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="130,145,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+            <Button Click="Button_Click" HorizontalAlignment="Left" Margin="160,145,0,0" VerticalAlignment="Top" Width="30" Height="27"/>
+        </Grid>
+        <!--Label x:Name="label" Content="Difficulty" HorizontalAlignment="Left" Margin="315,10,0,0" VerticalAlignment="Top" Width="102"/>
+        <RadioButton Content="Simple" Checked="RadioButton_Checked_1" HorizontalAlignment="Left" Margin="310,48,0,0" VerticalAlignment="Top" Width="107"/>
+        <RadioButton Content="Medium" Checked="RadioButton_Checked_1" HorizontalAlignment="Left" Height="21" Margin="310,68,0,0" VerticalAlignment="Top" Width="90"/>
+        <RadioButton Content="Difficult" Checked="RadioButton_Checked_1" HorizontalAlignment="Left" Height="21" Margin="310,89,0,0" VerticalAlignment="Top" Width="90"/>
+        <RadioButton Content="Luca style" Checked="RadioButton_Checked_1" HorizontalAlignment="Left" Height="21" Margin="310,110,0,0" VerticalAlignment="Top" Width="90"/-->
+        <Button Content="Show Mines" HorizontalAlignment="Left" Margin="296,58,0,0" VerticalAlignment="Top" Width="101" Height="43" Click="Button_Click_1"/>
+        <Button Content="New Game" HorizontalAlignment="Left" Margin="296,10,0,0" VerticalAlignment="Top" Width="101" Height="43" Click="Button_Click_2"/>
+        <Button Content="Bye" HorizontalAlignment="Left" Margin="296,106,0,0" VerticalAlignment="Top" Width="101" Height="43" Click="Button_Click_3"/>
+
+    </Grid>
+</UserControl>

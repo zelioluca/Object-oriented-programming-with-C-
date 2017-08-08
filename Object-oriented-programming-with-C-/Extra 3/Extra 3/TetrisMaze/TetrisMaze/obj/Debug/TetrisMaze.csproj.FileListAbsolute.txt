@@ -1,0 +1,28 @@
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.csprojResolveAssemblyReference.cache
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\MainWindow.g.cs
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\App.g.cs
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze_MarkupCompile.cache
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze_MarkupCompile.lref
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\bin\Debug\TetrisMaze.exe.config
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\bin\Debug\TetrisMaze.exe
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\bin\Debug\TetrisMaze.pdb
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\MainWindow.baml
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.g.resources
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.Properties.Resources.resources
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.csproj.GenerateResource.Cache
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.exe
+E:\Programming\Object Oriented Programming\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.pdb
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\bin\Debug\TetrisMaze.exe.config
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.exe
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.pdb
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\bin\Debug\TetrisMaze.exe
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\bin\Debug\TetrisMaze.pdb
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.csprojResolveAssemblyReference.cache
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\MainWindow.g.cs
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\App.g.cs
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze_MarkupCompile.cache
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze_MarkupCompile.lref
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\MainWindow.baml
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.g.resources
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.Properties.Resources.resources
+E:\Programming\Object Oriented Programming\Extra 3\Extra 3\TetrisMaze\TetrisMaze\obj\Debug\TetrisMaze.csproj.GenerateResource.Cache

@@ -1,0 +1,10 @@
+﻿<Window x:Class="example_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Title Generator" Height="350" Width="244">
+    <Grid Margin="0,0,2,0">
+        <Button Content="GENERATE YOUR TITLE" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="208" Height="67" Click="Button_Click_1"/>
+        <TextBox x:Name="input" HorizontalAlignment="Left" Height="45" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208"/>
+        <TextBlock x:Name="output" HorizontalAlignment="Left" Height="178" Margin="10,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Text="Currently generated title based on Finnish words" TextAlignment="Center"/>
+    </Grid>
+</Window>

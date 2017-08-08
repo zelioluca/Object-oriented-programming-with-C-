@@ -1,0 +1,16 @@
+﻿<Window x:Class="boardgames.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:boardgames"
+        xmlns:games="clr-namespace:pelitkirijasto;assembly=pelitkirijasto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="833.552" Width="1017.351">
+    <Grid>
+
+        <games:MemoryBoard Margin="401,10,10.2,84"></games:MemoryBoard>
+        <games:TTTBoard Margin="10,10,393.2,373"></games:TTTBoard>
+        <local:MineBoard Margin="10,507,533.2,10"></local:MineBoard>
+    </Grid>
+</Window>

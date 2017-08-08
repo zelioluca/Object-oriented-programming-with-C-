@@ -1,0 +1,21 @@
+﻿<Window x:Class="Memory_only.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Memory - find pairs" Height="433" Width="682">
+    <Grid Margin="0,0,0,56">
+        <UniformGrid x:Name="board" Margin="0,0,132,0" />
+        <Grid HorizontalAlignment="Left" Height="52" Margin="0,348,0,-57" VerticalAlignment="Top" Width="514">
+            <TextBlock Name="result" HorizontalAlignment="Left" Height="32" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167"/>
+            <Button Content="New game" HorizontalAlignment="Left" Height="31" Margin="198,11,0,0" VerticalAlignment="Top" Width="135" Click="NewButtonClick"/>
+            <Button Content="Show all" HorizontalAlignment="Left" Height="31" Margin="384,11,0,0" VerticalAlignment="Top" Width="120" Click="ShowButtonClick"/>
+        </Grid>
+        <Label Content="Size of playboard" HorizontalAlignment="Left" Height="35" Margin="555,29,0,0" VerticalAlignment="Top" Width="113"/>
+        <Grid Name="rbs">
+            <RadioButton Content="4x4"  HorizontalAlignment="Left" Height="35" Margin="566,79,0,0" VerticalAlignment="Top" Width="102" Checked="RadioButton_Checked_1" IsChecked="True"/>
+            <RadioButton Content="6x6"  HorizontalAlignment="Left" Height="35" Margin="566,119,0,0" VerticalAlignment="Top" Width="102" Checked="RadioButton_Checked_1"/>
+            <RadioButton Content="8x8"  HorizontalAlignment="Left" Height="35" Margin="566,154,0,0" VerticalAlignment="Top" Width="102" Checked="RadioButton_Checked_1"/>
+            <RadioButton Content="10x10"  HorizontalAlignment="Left" Height="35" Margin="566,189,0,0" VerticalAlignment="Top" Width="102" Checked="RadioButton_Checked_1"/>
+            <RadioButton Content="12x12"  HorizontalAlignment="Left" Height="35" Margin="566,224,0,0" VerticalAlignment="Top" Width="102" Checked="RadioButton_Checked_1"/>
+        </Grid>
+    </Grid>
+</Window>

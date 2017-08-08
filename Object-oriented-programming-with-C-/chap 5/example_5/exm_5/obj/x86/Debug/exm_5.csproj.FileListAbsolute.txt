@@ -1,0 +1,13 @@
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\bin\Debug\exm_5.exe
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\bin\Debug\exm_5.pdb
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\MainWindow.baml
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\MainWindow.g.cs
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\App.g.cs
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\exm_5_MarkupCompile.cache
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\exm_5.g.resources
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\example_5.Properties.Resources.resources
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\exm_5.exe
+C:\Users\tferm\Desktop\OO2016\exm_5\exm_5\obj\x86\Debug\exm_5.pdb

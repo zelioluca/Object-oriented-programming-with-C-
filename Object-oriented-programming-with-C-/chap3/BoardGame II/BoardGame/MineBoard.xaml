@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="BoardGame.MineBoard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BoardGame"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Name="grid">
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="42,10,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="74,10,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="106,10,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="138,10,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="42,40,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="74,40,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="106,40,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="138,40,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="170,40,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="42,70,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="74,70,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="106,70,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="138,70,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="170,70,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="42,100,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="74,100,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="106,100,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="138,100,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="170,100,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="42,130,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="74,130,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="106,130,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="138,130,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="170,130,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="42,160,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="74,160,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="106,160,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="138,160,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+        <Button Content="" Click="Button_Click" HorizontalAlignment="Left" Margin="170,160,0,0" VerticalAlignment="Top" Width="32" Height="30"/>
+
+    </Grid>
+</UserControl>

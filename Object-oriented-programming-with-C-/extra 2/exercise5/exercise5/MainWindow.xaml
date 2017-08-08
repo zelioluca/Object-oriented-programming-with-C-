@@ -1,0 +1,67 @@
+﻿<Window x:Class="exercise5.MainWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       Title="Monthly Temperatures" Height="623.478" Width="1594.718" Closing="Window_Closing">
+    <Window.CommandBindings>
+        <CommandBinding Command="New" CanExecute="CommandBinding_CanExecute" Executed="New_CommandBinding_Executed" />
+        <CommandBinding Command="Open" CanExecute="CommandBinding_CanExecute" Executed="Open_CommandBinding_Executed"/>
+        <CommandBinding Command="Save" CanExecute="CommandBinding_CanExecute" Executed="Save_CommandBinding_Executed"/>
+        <CommandBinding Command="SaveAs" CanExecute="CommandBinding_CanExecute" Executed="SaveAs_CommandBinding_Executed"/>
+        <CommandBinding Command="Close" CanExecute="CommandBinding_CanExecute" Executed="Close_CommandBinding_Executed"/>
+    </Window.CommandBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="243*"/>
+            <RowDefinition Height="220*"/>
+        </Grid.RowDefinitions>
+        <DockPanel Margin="0,0,-0.2,174.3">
+            <Menu DockPanel.Dock="Top" Height="29">
+                <MenuItem Header="_File">
+                    <MenuItem Command="New"  />
+                    <MenuItem Command="Open" />
+                    <MenuItem Command="Save"  />
+                    <MenuItem Command="SaveAs" />
+                    <Separator />
+                    <MenuItem Command="Close"  />
+                </MenuItem>
+            </Menu>
+            <ToolBarTray DockPanel.Dock="Bottom" Height="33">
+                <ToolBar>
+                    <Button Command="New" Content="New" />
+                    <Separator />
+                    <Button Command="Open" Content="Open" />
+                    <Separator />
+                    <Button Command="Save" Content="Save" />
+                    <Separator />
+                </ToolBar>
+            </ToolBarTray>
+        </DockPanel>
+        <DataGrid Name="dataGrid1" Margin="497,176,742,67.6"                    
+                   CurrentCellChanged="dataGrid1_CurrentCellChanged" IsSynchronizedWithCurrentItem="True" AutoGenerateColumns="False"
+                  HeadersVisibility="Column" ClipToBounds="True" Grid.RowSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding X}"  Header=" Date "></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Y}" Header=" Temperature "></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Meter}" Header=" Meter - location "></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Canvas x:Name="canvas" Background="#FFEBE2E2"  MouseMove="canvas_MouseMove" ClipToBounds="False" MouseLeave="canvas_MouseLeave" Margin="10,176,0,0" HorizontalAlignment="Left" Width="451" Height="350" VerticalAlignment="Top" Grid.RowSpan="2" />
+        <TextBlock Height="34" HorizontalAlignment="Left" Margin="10,214.8,0,0" x:Name="point" Text="" VerticalAlignment="Top" Width="451" Grid.Row="1" />
+        <RichTextBox x:Name="text" HorizontalAlignment="Left" Height="350" Margin="1100,176,0,0" VerticalAlignment="Top" Width="400" Grid.RowSpan="2">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBlock x:Name="txtBlock" HorizontalAlignment="Left" Margin="871,247,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="37" Width="207"/>
+        <TextBlock x:Name="csvBlock" HorizontalAlignment="Left" Margin="871,311,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="38" Width="207" Grid.RowSpan="2"/>
+        <Label x:Name="Label" Content="Content of MPK File :" HorizontalAlignment="Left" Margin="871,176,0,0" VerticalAlignment="Top" Width="207"/>
+        <Button x:Name="SaveCvs" Content="Save Csv" Margin="497,233.8,742,9.6" Grid.Row="1" Click="SaveCvs_Click"/>
+        <Button x:Name="SaveTxt" Content="SaveTxt" Margin="1100,233.8,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Click="SaveTxt_Click" HorizontalAlignment="Left" Width="400"/>
+        <TextBlock x:Name="PCsv" Margin="497,142,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="35" HorizontalAlignment="Left" Width="349"/>
+        <TextBlock x:Name="Ptxt" Margin="1100,142,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="29" HorizontalAlignment="Left" Width="400"/>
+    </Grid>
+
+</Window>
